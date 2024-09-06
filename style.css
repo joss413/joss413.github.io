@@ -515,8 +515,8 @@ color: var(--other-color);
 }
 form .send-btn {
     width: 50%; 
-    padding: 12px 25px; /* Adjust padding for smaller devices */
-    font-size: 1rem; /* Smaller text on mobile screens */
+    padding: 10px 20px; 
+    font-size: 1rem; 
 }
 
 
@@ -539,9 +539,10 @@ form .send-btn {
 }
 
 form .send-btn {
-    width: 50%; /* Make the button full-width on very small screens */
-    padding: 10px 20px; /* Adjust padding */
-    font-size: 0.9rem; /* Slightly smaller font for very small devices */
+    width: 50%; 
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+
 }
 
 }
