@@ -7,6 +7,7 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+
 :root {
 --text-color:#fff;
 --bg-color:#1b1f24;
@@ -493,12 +494,32 @@ color: var(--other-color);
     .navlist.active {
         right: 0;
     }
+
+    .hero {
+        height: 100vh;
+        width: 100%;
+        background: url(./img/JOFIN11.png);
+        background-position: top right;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+        
 }
 @media (max-width:680px) {
     .main-content p {
     width: 100%;
-}
+    background: url(./img/JOFIN11.png);
     
+}
+form .send-btn {
+    padding: 12px 25px; /* Adjust padding for smaller devices */
+    font-size: 1rem; /* Smaller text on mobile screens */
+}
+
+
+
 }
 
 @media (max-width:470px) {
@@ -515,4 +536,11 @@ color: var(--other-color);
     object-fit: cover;
     margin: 0 auto;
 }
+
+form .send-btn {
+    width: 50%; /* Make the button full-width on very small screens */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 0.9rem; /* Slightly smaller font for very small devices */
+}
+
 }
